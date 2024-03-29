@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../apps/erpnext_html_to_pdf/erpnext_html_to_pdf/public/js/erpnext_html_to_pdf.bundle.js"],
+  "sourcesContent": ["frappe.pages[\"print\"].on_page_load = function (wrapper) {\n\tconsole.log(123123);\n}"],
+  "mappings": ";;AAAA,SAAO,MAAM,SAAS,eAAe,SAAU,SAAS;AACvD,YAAQ,IAAI,MAAM;AAAA,EACnB;",
+  "names": []
+}

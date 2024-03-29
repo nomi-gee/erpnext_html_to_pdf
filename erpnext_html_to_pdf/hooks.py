@@ -24,7 +24,8 @@ app_license = "MIT"
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
 # include js in page
-# page_js = {"page" : "public/js/file.js"}
+page_js = {
+	"print" : "public/js/erpnext_html_to_pdf.js"}
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
@@ -53,10 +54,10 @@ app_license = "MIT"
 # ----------
 
 # add methods and filters to jinja environment
-# jinja = {
-# 	"methods": "erpnext_html_to_pdf.utils.jinja_methods",
-# 	"filters": "erpnext_html_to_pdf.utils.jinja_filters"
-# }
+jinja = {
+	"methods": ["erpnext_html_to_pdf.utils.image_to_base64"],
+	#"filters": "erpnext_html_to_pdf.utils.jinja_filters"
+}
 
 # Installation
 # ------------
